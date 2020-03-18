@@ -8,6 +8,6 @@ public class VariableScopeExample {
 			v2 = v1 - 10;
 		}
 		// v2는 if 블럭 안에서 선언했으므로 범위를 벗어나서 error
-		// int v3 = v1 + v2 + 5;
+		//int v3 = v1 + v2 + 5;
 	}
 }

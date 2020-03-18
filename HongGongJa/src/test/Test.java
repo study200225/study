@@ -1,12 +1,13 @@
 package test;
 
-import java.util.Scanner;
-
 public class Test {
 	public static void main(String[] args) {
-		int x = 10;
-		int y = 20;
-		int result = ++x + y--;
-		System.out.println("result: " + result);
+		double var1 = 10;
+		double var2 = var1 / 100;
+		if(var2 == 0.1) {
+			System.out.println("10%입니다.");
+		} else {
+			System.out.println("10%가 아닙니다.");
+		}
 	}
 }
